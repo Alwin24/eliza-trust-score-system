@@ -22,24 +22,24 @@ const main = async () => {
   //     fileMustExist: false,
   //   })
   // );
-  const databaseAdapter = new SupabaseDatabaseAdapter(
-    process.env.SUPABASE_URL!,
-    process.env.SUPABASE_ANON_KEY!
-  );
+  // const databaseAdapter = new SupabaseDatabaseAdapter(
+  //   process.env.SUPABASE_URL!,
+  //   process.env.SUPABASE_ANON_KEY!
+  // );
 
   try {
-    const runtime = new AgentRuntime({
-      token: "auth-token",
-      modelProvider: ModelProviderName.OPENAI,
-      // character: characterConfig,
-      databaseAdapter,
-      conversationLength: 32,
-      plugins: [solanaPlugin],
-      // serverUrl: "http://localhost:7998",
-      // actions: customActions,
-      // evaluators: customEvaluators,
-      // providers: customProviders,
-    });
+    // const runtime = new AgentRuntime({
+    //   token: "auth-token",
+    //   modelProvider: ModelProviderName.OPENAI,
+    //   // character: characterConfig,
+    //   databaseAdapter,
+    //   conversationLength: 32,
+    //   plugins: [solanaPlugin],
+    //   // serverUrl: "http://localhost:7998",
+    //   // actions: customActions,
+    //   // evaluators: customEvaluators,
+    //   // providers: customProviders,
+    // });
 
     const tokenAddress = "4oKi7SSABySx9nqzVf9GN2bxgPZ8TMaRec26vLdZpump";
 

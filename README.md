@@ -1,4 +1,4 @@
-# aliza-trust-score-system
+# eliza-trust-score-system
 
 To install dependencies:
 
