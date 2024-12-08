@@ -1,0 +1,24 @@
+{
+  "name": "aliza-trust-score-system",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@ai16z/adapter-supabase": "0.1.3",
+    "@ai16z/eliza": "0.1.3",
+    "@ai16z/plugin-solana": "0.1.3",
+    "@ai16z/plugin-trustdb": "0.1.3",
+    "@solana/web3.js": "=1.95.4",
+    "@supabase/supabase-js": "^2.47.2",
+    "amqplib": "^0.10.5",
+    "bs58": "^6.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT"
+}
